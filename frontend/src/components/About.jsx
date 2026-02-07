@@ -66,7 +66,13 @@ const About = () => {
                 {profileData.favoriteComic}
               </p>
             </div>
-            <div className="text-6xl">🐰🆚🐵</div>
+            <div className="flex-shrink-0">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/slnr4tpu_image.png" 
+                alt="Coelho vs Macaco"
+                className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-2xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-4 border-black transform hover:scale-105 transition-transform"
+              />
+            </div>
           </div>
         </div>
 
