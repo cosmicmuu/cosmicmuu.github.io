@@ -114,4 +114,10 @@ code {
         border-top-color: inherit;
         border-bottom-color: inherit;
     }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 }
