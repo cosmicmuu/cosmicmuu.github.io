@@ -19,6 +19,17 @@ export const profileData = {
 export const portfolioProjects = [
   {
     id: 1,
+    title: "ScamShield",
+    category: "Hackathon",
+    description: "Detetor de fraudes online com IA criado na hackathon Vibe Coding!",
+    color: "#2563EB",
+    icon: "Shield",
+    link: "https://scam-shield-ia.netlify.app/",
+    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/mp3hj6im_Captura%20de%20ecr%C3%A3%202026-02-28%20112115.png",
+    featured: true
+  },
+  {
+    id: 2,
     title: "Garra Arcade!",
     category: "Programação",
     description: "Jogo arcade neon onde apanhas ferramentas e evitas pilhas!",
@@ -29,47 +40,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 2,
-    title: "Projeto de Código Awesome",
-    category: "Programação",
-    description: "Um projeto super fixe que criei na coders!",
-    color: "#007AFF",
-    icon: "Code"
-  },
-  {
     id: 3,
-    title: "Criação LEGO Épica",
-    category: "LEGO",
-    description: "Construí isto com milhares de peças!",
-    color: "#FF3B30",
-    icon: "Box"
-  },
-  {
-    id: 4,
-    title: "Build Minecraft Incrível",
-    category: "Gaming",
-    description: "A minha melhor construção no Minecraft!",
-    color: "#00C853",
-    icon: "Pickaxe"
-  },
-  {
-    id: 5,
-    title: "Jogo Roblox",
-    category: "Gaming",
-    description: "O meu jogo favorito que criei no Roblox!",
-    color: "#FF9500",
-    icon: "Gamepad2"
-  },
-  {
-    id: 6,
-    title: "App Super Cool",
-    category: "Programação",
-    description: "Uma aplicação que fiz para ajudar os meus amigos!",
-    color: "#FFCC00",
-    icon: "Smartphone"
-  },
-  {
-    id: 7,
     title: "Mais Projetos em Breve!",
     category: "Coming Soon",
     description: "Estou sempre a criar coisas novas...",
