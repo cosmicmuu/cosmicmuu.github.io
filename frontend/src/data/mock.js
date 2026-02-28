@@ -19,6 +19,17 @@ export const profileData = {
 export const portfolioProjects = [
   {
     id: 1,
+    title: "Garra Arcade!",
+    category: "Programação",
+    description: "Jogo arcade neon onde apanhas ferramentas e evitas pilhas!",
+    color: "#E91E63",
+    icon: "Joystick",
+    link: "https://graceful-basket.lovable.app",
+    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/nzscf89a_Captura%20de%20ecr%C3%A3%202026-02-28%20105109.png",
+    featured: true
+  },
+  {
+    id: 2,
     title: "Projeto de Código Awesome",
     category: "Programação",
     description: "Um projeto super fixe que criei na coders!",
@@ -26,7 +37,7 @@ export const portfolioProjects = [
     icon: "Code"
   },
   {
-    id: 2,
+    id: 3,
     title: "Criação LEGO Épica",
     category: "LEGO",
     description: "Construí isto com milhares de peças!",
@@ -34,7 +45,7 @@ export const portfolioProjects = [
     icon: "Box"
   },
   {
-    id: 3,
+    id: 4,
     title: "Build Minecraft Incrível",
     category: "Gaming",
     description: "A minha melhor construção no Minecraft!",
@@ -42,7 +53,7 @@ export const portfolioProjects = [
     icon: "Pickaxe"
   },
   {
-    id: 4,
+    id: 5,
     title: "Jogo Roblox",
     category: "Gaming",
     description: "O meu jogo favorito que criei no Roblox!",
@@ -50,7 +61,7 @@ export const portfolioProjects = [
     icon: "Gamepad2"
   },
   {
-    id: 5,
+    id: 6,
     title: "App Super Cool",
     category: "Programação",
     description: "Uma aplicação que fiz para ajudar os meus amigos!",
@@ -58,7 +69,7 @@ export const portfolioProjects = [
     icon: "Smartphone"
   },
   {
-    id: 6,
+    id: 7,
     title: "Mais Projetos em Breve!",
     category: "Coming Soon",
     description: "Estou sempre a criar coisas novas...",
