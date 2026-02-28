@@ -28,19 +28,29 @@ const Portfolio = () => {
                 key={project.id}
                 className="group bg-white rounded-3xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] border-4 border-black overflow-hidden transform hover:translate-y-[-8px] hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] transition-all cursor-pointer"
               >
-                {/* Color Header with Icon */}
+                {/* Color Header with Icon or Image */}
                 <div
                   className="h-40 flex items-center justify-center relative overflow-hidden"
-                  style={{ backgroundColor: project.color }}
+                  style={{ backgroundColor: project.image ? '#1a1a2e' : project.color }}
                 >
-                  {/* Decorative blocks */}
-                  <div className="absolute top-4 left-4 w-8 h-8 bg-white opacity-20 rounded-lg transform rotate-12"></div>
-                  <div className="absolute bottom-4 right-4 w-12 h-12 bg-white opacity-20 rounded-lg transform -rotate-12"></div>
-                  
-                  {Icon && (
-                    <div className="relative z-10 bg-white p-6 rounded-2xl shadow-lg transform group-hover:scale-110 transition-transform">
-                      <Icon size={48} strokeWidth={3} style={{ color: project.color }} />
-                    </div>
+                  {project.image ? (
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <>
+                      {/* Decorative blocks */}
+                      <div className="absolute top-4 left-4 w-8 h-8 bg-white opacity-20 rounded-lg transform rotate-12"></div>
+                      <div className="absolute bottom-4 right-4 w-12 h-12 bg-white opacity-20 rounded-lg transform -rotate-12"></div>
+                      
+                      {Icon && (
+                        <div className="relative z-10 bg-white p-6 rounded-2xl shadow-lg transform group-hover:scale-110 transition-transform">
+                          <Icon size={48} strokeWidth={3} style={{ color: project.color }} />
+                        </div>
+                      )}
+                    </>
                   )}
                 </div>
 
@@ -58,12 +68,24 @@ const Portfolio = () => {
                     {project.description}
                   </p>
 
-                  <button
-                    className="w-full mt-4 py-3 rounded-xl font-black text-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all"
-                    style={{ backgroundColor: project.color }}
-                  >
-                    Ver Detalhes
-                  </button>
+                  {project.link ? (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full mt-4 py-3 text-center rounded-xl font-black text-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all"
+                      style={{ backgroundColor: project.color }}
+                    >
+                      Jogar Agora! 🎮
+                    </a>
+                  ) : (
+                    <button
+                      className="w-full mt-4 py-3 rounded-xl font-black text-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all"
+                      style={{ backgroundColor: project.color }}
+                    >
+                      Ver Detalhes
+                    </button>
+                  )}
                 </div>
               </div>
             );
