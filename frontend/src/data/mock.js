@@ -30,6 +30,17 @@ export const portfolioProjects = [
   },
   {
     id: 2,
+    title: "Space Invaders",
+    category: "Gaming",
+    description: "Jogo retro arcade feito em MakeCode! Defende a Terra dos aliens!",
+    color: "#7C3AED",
+    icon: "Rocket",
+    link: "https://arcade.makecode.com/S98850-91516-13212-09618",
+    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/z8zqod17_Captura%20de%20ecr%C3%A3%202026-02-28%20112722.png",
+    featured: true
+  },
+  {
+    id: 3,
     title: "Garra Arcade!",
     category: "Programação",
     description: "Jogo arcade neon onde apanhas ferramentas e evitas pilhas!",
@@ -40,7 +51,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 3,
+    id: 4,
     title: "Mais Projetos em Breve!",
     category: "Coming Soon",
     description: "Estou sempre a criar coisas novas...",
