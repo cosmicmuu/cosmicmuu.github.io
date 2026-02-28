@@ -41,6 +41,17 @@ export const portfolioProjects = [
   },
   {
     id: 3,
+    title: "Maze Game",
+    category: "Gaming",
+    description: "Jogo de labirinto pixel art! Explora níveis cheios de desafios!",
+    color: "#F59E0B",
+    icon: "Map",
+    link: "https://arcade.makecode.com/S75646-79540-03069-56396",
+    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/w216pj73_Captura%20de%20ecr%C3%A3%202026-02-28%20113128.png",
+    featured: true
+  },
+  {
+    id: 4,
     title: "Garra Arcade!",
     category: "Programação",
     description: "Jogo arcade neon onde apanhas ferramentas e evitas pilhas!",
@@ -51,7 +62,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Mais Projetos em Breve!",
     category: "Coming Soon",
     description: "Estou sempre a criar coisas novas...",
