@@ -76,7 +76,7 @@ const Portfolio = () => {
                       className="block w-full mt-4 py-3 text-center rounded-xl font-black text-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all"
                       style={{ backgroundColor: project.color }}
                     >
-                      Jogar Agora! 🎮
+                      {project.category === 'Hackathon' ? 'Experimentar! 🛡️' : 'Jogar Agora! 🎮'}
                     </a>
                   ) : (
                     <button
