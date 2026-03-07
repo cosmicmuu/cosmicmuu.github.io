@@ -30,6 +30,17 @@ export const portfolioProjects = [
   },
   {
     id: 2,
+    title: "Falling Duck",
+    category: "Gaming",
+    description: "Jogo estilo Flappy Bird! Ajuda o pato a voar pelos obstáculos!",
+    color: "#FBBF24",
+    icon: "Bird",
+    link: "https://arcade.makecode.com/S07149-66192-11708-19353",
+    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/zshrd96p_Captura%20de%20ecr%C3%A3%202026-03-07%20110320.png",
+    featured: true
+  },
+  {
+    id: 3,
     title: "Space Kill Game",
     category: "Gaming",
     description: "Jogo espacial épico! Protege a Terra dos aliens no espaço!",
@@ -40,7 +51,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 3,
+    id: 4,
     title: "Space Invaders",
     category: "Gaming",
     description: "Jogo retro arcade feito em MakeCode! Defende a Terra dos aliens!",
@@ -51,7 +62,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Maze Game",
     category: "Gaming",
     description: "Jogo de labirinto pixel art! Explora níveis cheios de desafios!",
@@ -62,7 +73,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 5,
+    id: 6,
     title: "Garra Arcade!",
     category: "Programação",
     description: "Jogo arcade neon onde apanhas ferramentas e evitas pilhas!",
@@ -73,7 +84,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 6,
+    id: 7,
     title: "Mais Projetos em Breve!",
     category: "Coming Soon",
     description: "Estou sempre a criar coisas novas...",
