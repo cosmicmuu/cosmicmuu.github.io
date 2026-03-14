@@ -19,8 +19,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo/Username */}
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-orange-500 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex items-center justify-center transform hover:translate-y-[-2px] transition-transform">
-              <span className="text-2xl font-black text-white">C</span>
+            <div className="w-12 h-12 bg-white rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black flex items-center justify-center transform hover:translate-y-[-2px] transition-transform overflow-hidden">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_334d3bf4-8a12-4f0a-9bde-095a793ceed9/artifacts/1zu6lnoa_pixil-frame-0%20%2810%29.png"
+                alt="cosmic muu avatar"
+                className="w-full h-full object-contain image-rendering-pixelated"
+                style={{ imageRendering: 'pixelated' }}
+              />
             </div>
             <h1 className="text-2xl md:text-3xl font-black text-gray-900">
               cosmic <span className="text-red-500">muu</span>
