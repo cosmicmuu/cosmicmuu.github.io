@@ -30,39 +30,6 @@ export const portfolioProjects = [
   },
   {
     id: 2,
-    title: "Cat Jumper",
-    category: "Gaming",
-    description: "Aventura de plataformas com um gatinho! Salta e explora!",
-    color: "#14B8A6",
-    icon: "Cat",
-    link: "https://arcade.makecode.com/S75726-49576-12750-97039",
-    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/02e2ado8_Captura%20de%20ecr%C3%A3%202026-03-07%20111807.png",
-    featured: true
-  },
-  {
-    id: 3,
-    title: "Jumpy Platformer",
-    category: "Gaming",
-    description: "Jogo de plataformas super divertido! Salta pelos obstáculos!",
-    color: "#EF4444",
-    icon: "Footprints",
-    link: "https://arcade.makecode.com/S00053-22722-96999-96790",
-    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/u3z7awbf_Captura%20de%20ecr%C3%A3%202026-03-07%20110913.png",
-    featured: true
-  },
-  {
-    id: 4,
-    title: "Falling Duck",
-    category: "Gaming",
-    description: "Jogo estilo Flappy Bird! Ajuda o pato a voar pelos obstáculos!",
-    color: "#FBBF24",
-    icon: "Bird",
-    link: "https://arcade.makecode.com/S07149-66192-11708-19353",
-    image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/zshrd96p_Captura%20de%20ecr%C3%A3%202026-03-07%20110320.png",
-    featured: true
-  },
-  {
-    id: 5,
     title: "Space Kill Game",
     category: "Gaming",
     description: "Jogo espacial épico! Protege a Terra dos aliens no espaço!",
@@ -73,7 +40,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 6,
+    id: 3,
     title: "Space Invaders",
     category: "Gaming",
     description: "Jogo retro arcade feito em MakeCode! Defende a Terra dos aliens!",
@@ -84,7 +51,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 7,
+    id: 4,
     title: "Maze Game",
     category: "Gaming",
     description: "Jogo de labirinto pixel art! Explora níveis cheios de desafios!",
@@ -95,7 +62,7 @@ export const portfolioProjects = [
     featured: true
   },
   {
-    id: 8,
+    id: 5,
     title: "Garra Arcade!",
     category: "Programação",
     description: "Jogo arcade neon onde apanhas ferramentas e evitas pilhas!",
@@ -104,13 +71,5 @@ export const portfolioProjects = [
     link: "https://graceful-basket.lovable.app",
     image: "https://customer-assets.emergentagent.com/job_muu-portfolio/artifacts/nzscf89a_Captura%20de%20ecr%C3%A3%202026-02-28%20105109.png",
     featured: true
-  },
-  {
-    id: 9,
-    title: "Mais Projetos em Breve!",
-    category: "Coming Soon",
-    description: "Estou sempre a criar coisas novas...",
-    color: "#9C27B0",
-    icon: "Sparkles"
   }
 ];
